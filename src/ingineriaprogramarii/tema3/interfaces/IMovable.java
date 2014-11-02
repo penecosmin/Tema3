@@ -13,5 +13,5 @@ public interface IMovable {
 	
 	void payRoadTax(double valoare);
 	
-	int getFuelLevel();
+	double getFuelLevel();
 }
