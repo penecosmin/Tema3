@@ -1,5 +1,7 @@
 package ingineriaprogramarii.tema3.interfaces;
 
+import ingineriaprogramarii.tema3.exceptions.MyExceptions;
+
 /**
  * 
  * interfata pentru automobile de toate tipurile
@@ -9,7 +11,7 @@ package ingineriaprogramarii.tema3.interfaces;
 public interface IMovable {
 
 	
-	void fillWithFuel(double catitate);
+	void fillWithFuel(double catitate) throws MyExceptions;
 	
 	void payRoadTax(double valoare);
 	
